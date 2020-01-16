@@ -1,6 +1,6 @@
 # Installation
 1. Ensure you have node and npm installed in your system
-2. On your terminal run `git clone ` to clone the project from the repository
+2. On your terminal run `git clone https://github.com/bytenaija/prime-multiplication.git` to clone the project from the repository
 3. Then run `cd prime-multiplication` to enter the project directory
 4. Run `npm install` to install all dependencies
 
