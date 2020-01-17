@@ -1,10 +1,10 @@
 tr:nth-child(even) {
-  background: rgb(239,239,248)
+  background: rgb(239, 239, 248);
 }
 table {
   border: 1px solid black;
 }
 
-td{
+td {
   text-align: center;
 }
