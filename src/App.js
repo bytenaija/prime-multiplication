@@ -12,10 +12,6 @@ function App() {
 
   // calculate the first 10 prime numbers on application start
   React.useEffect(() => {
-    const primesLists = getPrimeNumbers(numberOfPrimes);
-    setPrimes(primesLists);
-  }, [numberOfPrimes]);
-
 
   /* function to get all prime numbers to a certain number
 // @param nPrimes: number - The number of primes to find
@@ -37,6 +33,11 @@ function App() {
     for (let i = 2; i <= sqrtn; i++) if (n % i === 0) return false;
     return true;
   };
+
+    const primesLists = getPrimeNumbers(numberOfPrimes);
+    setPrimes(primesLists);
+  }, [numberOfPrimes]);
+
 
   //display the multiplication table
   const displayTable = () => {
