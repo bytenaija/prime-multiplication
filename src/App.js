@@ -14,7 +14,7 @@ function App() {
   React.useEffect(() => {
     const primesLists = getPrimeNumbers(numberOfPrimes);
     setPrimes(primesLists);
-  }, [numberOfPrimes, getPrimeNumbers]);
+  }, [numberOfPrimes]);
 
 
   /* function to get all prime numbers to a certain number
